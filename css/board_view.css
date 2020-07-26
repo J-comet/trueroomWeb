@@ -1,0 +1,38 @@
+
+
+
+.contain{
+  margin: 0 auto;
+  width: 75%;
+  height: 1200px;
+}
+
+.side{
+  width: 35%;
+  height: 100%;
+  float: left;
+  text-align: left;
+
+  padding-left: 40px;
+}
+
+.main{
+  margin-top: 10px;
+  width: 65%;
+  height: 100%;
+
+  padding-left: 40px;
+  float: left;
+
+}
+.fa{
+   color:yellow;
+}
+
+.star:hover{
+  cursor: not-allowed;
+}
+
+textarea:disabled{
+  background: #d3d3d3;
+}

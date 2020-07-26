@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>trueroom</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script>
+    function setCookie( name, value, expiredays ) {   // 쿠키생성 코드
+     var todayDate = new Date();
+      todayDate.setDate( todayDate.getDate() + expiredays );
+      document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";"
+    }
+    function closeWin() {   // 닫을 때 쿠키 생성
+     if ( document.forms[0].Notice.checked ) // form 중에서 name = Notice (체크박스) 체크되었다면
+       setCookie( "Notice", "done" , 1);       // 쿠키를 생성
+      self.close();
+    }
+    </script>
+
+  </head>
+  <body class="bg-primary">
+
+ <div style="color:white; margin-left:50px;margin-top:30px;margin-bottom:20px;">
+   <h2>계정정지 공지</h2><br>
+   <div style="font-size:18px;">
+
+   안녕하세요.<br>
+   진실의방 관리자입니다.<br>
+   귀하의 계정으로 작성된 다수의 게시글이<br>
+   블라인드 처리되어 계정을 정지했습니다.<br><br>
+
+   이와 관련하여 문의사항은<br>
+
+   <!--<a class="admin" href="admin_question.php" style="color:white; font-size:21px; text-decoration:underline;" title="관리자문의하기">문의하기</a> -->
+   <strong>문의하기</strong>
+   를 통해 문의해주세요.<br><br>
+   감사합니다.<br>
+</div>
+ </div>
+
+
+    <form>
+    <input type=checkbox name="Notice" value="" style="margin-left:50px;">
+      24시간동안 보지않기
+     <input style="margin-left:300px;" type="button" name="button" class="btn btn-info btn-lg" value="닫기" onclick=closeWin()>
+    </form>
+
+    </body>
+</html>

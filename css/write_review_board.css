@@ -1,0 +1,84 @@
+.cp_div{
+  position: relative;
+}
+
+.cp_div label{
+  position: absolute;
+  top:1px;
+  left: 1px;
+  padding:.8em .5em;
+  color: #999;
+  cursor: text;
+}
+
+.cp_div input[type='text']{
+  width: 400px;
+  height: 35px;
+  line-height: normal;
+  padding: .8em .5em;
+  font-family: inherit;
+  border: 1px solid skyblue;
+  border-radius: 0;
+  outline-style: none;
+
+}
+select{
+ width: 400px;
+ height: 37px;
+ border: 1px solid skyblue;
+ font-family: inherit;
+ background: url('/image/drop.png') no-repeat 95% 50%;
+ background-size:17px 22px;
+ border-radius: 0px;
+ -webkit-apperance: none;
+ -moz-appearance: none;
+ appearance: none;
+}
+
+select::-ms-expand{
+  display: none;
+}
+
+select:hover{
+  cursor: pointer;
+}
+
+input[type='radio']{
+  display: none;
+  margin: 10px;
+}
+input[type='radio']+ label:hover{
+  background-color: #87ceeb;
+  cursor: pointer;
+}
+input[type='radio'] + label{
+  display: inline-block;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid skyblue;
+  font-size: 13px;
+  width: 150px;
+  height: 50px;
+
+  text-align: center;
+}
+
+input[type='radio']:checked + label{
+
+  background-color: #4b89dc;
+  color: #fff;
+  font-weight: bold;
+
+}
+.starR{
+  background: url('http://miuu227.godohosting.com/images/icon/ico_review.png') no-repeat right 0;
+  background-size: auto 100%;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.starR.on{background-position:0 0;}

@@ -1,0 +1,45 @@
+.date{
+  text-align: right;
+  margin: 0;
+  padding-right: 3px;
+  font-size: 15px;
+}
+
+.titleline{
+
+  font-size:19px;
+   overflow: hidden;
+  text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp:2;
+   -webkit-box-orient:vertical;
+   word-wrap: break-word;
+   height: 60px;
+}
+
+.infoline{
+  width:80%;
+  margin-top:15px;
+  font-size: 14px;
+  color: gray;
+}
+
+
+.fa{
+   color:yellow;
+
+}
+
+.star{
+  padding-left: 8px;
+  padding-top: 3px;
+  width: 33px;
+  height: 33px;
+  margin: 0;
+
+}
+
+.star:hover{
+  cursor: not-allowed;
+
+}
