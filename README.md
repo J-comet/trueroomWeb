@@ -4,7 +4,7 @@
 ## (1) 미리보기
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/67407666/88572426-124f5d00-d07a-11ea-9757-b9fd98626fb7.gif)
 
-## (2) 
+## (2) 미리보기
 ![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/67407666/88572437-19766b00-d07a-11ea-8840-a9f902213054.gif)
 
 
